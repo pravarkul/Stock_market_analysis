@@ -73,6 +73,12 @@ Power BI Dashboard
 
 ## Key Features
 
+### Automation
+
+The pipeline is fully automated using **Windows Task Scheduler**, configured to trigger the ETL script on a daily basis after market hours. This ensures the MySQL database and Power BI dashboard always reflect the latest available market data without manual intervention.
+
+> **Note:** This repository contains a representative sample of the project code. The complete source, including the scheduler configuration and full pipeline scripts, is available on request.
+
 ### Automated Data Pipeline
 
 * Automated stock market data extraction from Yahoo Finance
